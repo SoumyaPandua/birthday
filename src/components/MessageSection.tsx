@@ -51,7 +51,7 @@ const MessageSection: React.FC = () => {
               transition={{ delay: 0.2 }}
               className="text-xl md:text-2xl leading-relaxed text-gray-700 mb-8"
             >
-              You are absolutely amazing because you light up every room you enter with your infectious smile and genuine kindness. Your compassion for others, your incredible sense of humor, and your ability to find joy in the smallest moments make you truly special.
+              You light up every part of my world with your smile, your kindness, and the way you care so deeply. Even in the smallest moments, you bring joy that makes life so much more beautiful.
             </motion.p>
 
             <motion.p
@@ -61,7 +61,7 @@ const MessageSection: React.FC = () => {
               transition={{ delay: 0.4 }}
               className="text-xl md:text-2xl leading-relaxed text-gray-700 mb-8"
             >
-              Your friendship has been a gift that keeps on giving. You've been there through all the ups and downs, always knowing exactly what to say to make everything better. Your loyalty, your wisdom, and your beautiful heart make you one of the most wonderful people I know.
+              Through every high and low, you’ve been my strength, my calm, and my reason to smile. Your love, loyalty, and laughter are the greatest gifts I could ever ask for.
             </motion.p>
 
             <motion.p
@@ -71,7 +71,7 @@ const MessageSection: React.FC = () => {
               transition={{ delay: 0.6 }}
               className="text-xl md:text-2xl leading-relaxed text-gray-700 mb-12"
             >
-              On this special day, I wish you all the happiness, love, and success that life has to offer. May this new year of your life be filled with beautiful adventures, precious memories, and dreams coming true. You deserve nothing but the very best!
+              On your special day, I just want to say — you deserve the absolute best this life can offer. Here's to more adventures, more memories, and everything your heart dreams of. Happy Birthday, my love. ❤️
             </motion.p>
 
             <motion.div
@@ -85,7 +85,7 @@ const MessageSection: React.FC = () => {
                 With all my love,
               </p>
               <p className="text-xl md:text-2xl text-gray-600 mt-2 font-light">
-                Your Friend Always ❤️
+                Your Husband Always ❤️
               </p>
             </motion.div>
           </div>

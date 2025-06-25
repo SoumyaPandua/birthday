@@ -22,7 +22,7 @@ const BackgroundMusic: React.FC = () => {
 
     document.addEventListener('click', handleUserInteraction);
     document.addEventListener('scroll', handleUserInteraction);
-    
+
     return () => {
       document.removeEventListener('click', handleUserInteraction);
       document.removeEventListener('scroll', handleUserInteraction);
@@ -51,9 +51,8 @@ const BackgroundMusic: React.FC = () => {
         onEnded={() => setIsPlaying(false)}
         onError={() => setIsPlaying(false)}
       >
-        <source src="https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" type="audio/wav" />
-        {/* Fallback to a different audio source */}
-        <source src="data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcAAAAAElFTkSuQmCC" type="audio/wav" />
+        <source src="/photos/birthday-song.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
       </audio>
 
       <motion.div
